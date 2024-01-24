@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+        }
+        
+        .wrapper {
+            height: 500px;
+            width: 1089px;
+            background-color: white;
+            border: 1px solid red;
+        }
+        
+        .header {
+            height: 80px;
+            width: 1089px;
+            background-color: white;
+            border-bottom: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .header a {
+            font-size: 32px;
+            text-decoration: none;
+            color: brown;
+            font-weight: bold;
+        }
+        
+        .menu li {
+            height: 50px;
+            width: 210px;
+            background-color: #ed9496;
+            display: inline-table;
+            line-height: 50px;
+            list-style-type: none;
+            text-indent: 30px;
+            border: 1px solid red;
+        }
+        
+        li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .menu li:hover {
+            background-color: wheat;
+        }
+        
+        li:hover>a {
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <i><a><center>EXAMPLE CAFE MENU</center></a></i>
+        </div>
+        <div class="nav">
+            <ul class="menu">
+                <li>
+                    <img src="" alt="">
+                    <a href="#"></a>
+                </li>
+                <li><a href="#">STARTER</a></li>
+                <li><a href="#">MAIN COURSES</a></li>
+                <li><a href="#">DESSERTS</a></li>
+                <li>
+                    <a href="#">..</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
